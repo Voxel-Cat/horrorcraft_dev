@@ -1,0 +1,154 @@
+{
+  "mod_elements": [
+    {
+      "name": "HordespawngenblockPlayerStartsToDestroy",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hordespawngenblock_player_starts_to_destroy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hordespawngenblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hordespawngenblock"
+    },
+    {
+      "name": "Hordespawnercorruption",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hordespawnercorruption"
+    },
+    {
+      "name": "HordespawnerOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hordespawner_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hordespawner",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hordespawner"
+    },
+    {
+      "name": "HordespawngenblockClientDisplayRandomTick",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hordespawngenblock_client_display_random_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "scarytrack1",
+      "files": [
+        "scarymusic2018-10-12_-_it_is_coming_-_david_fesliyan"
+      ],
+      "category": "music",
+      "subtitle": "it is comming!"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "entity.horrified.hordespawner": "Hordespawn",
+      "block.horrified.hordespawngenblock": "Hordespawngenblock",
+      "subtitles.scarytrack1": "it is comming!",
+      "block.horrified.hordespawnercorruption": "Hordespawngenblock",
+      "item.horrified.hordespawner_spawn_egg": "Hordespawn Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "horrified",
+    "modName": "horrified",
+    "version": "1.0.0",
+    "author": "miles, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.horrified",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

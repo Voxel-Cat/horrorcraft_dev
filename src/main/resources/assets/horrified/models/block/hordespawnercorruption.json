@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "horrified:blocks/hordespawngenblocktexture",
+    "particle": "horrified:blocks/hordespawngenblocktexture"
+  },
+  "render_type": "solid"
+}

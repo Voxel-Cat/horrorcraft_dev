@@ -1,0 +1,12 @@
+{
+  "scarytrack1": {
+    "category": "music",
+    "subtitle": "subtitles.scarytrack1",
+    "sounds": [
+      {
+        "name": "horrified:scarymusic2018-10-12_-_it_is_coming_-_david_fesliyan",
+        "stream": true
+      }
+    ]
+  }
+}

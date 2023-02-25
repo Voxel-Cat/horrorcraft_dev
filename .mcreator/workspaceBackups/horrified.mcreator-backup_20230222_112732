@@ -1,0 +1,107 @@
+{
+  "mod_elements": [
+    {
+      "name": "ProtonspearProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protonspear_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HordespawngenblockPlayerStartsToDestroy",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hordespawngenblock_player_starts_to_destroy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hordespawngenblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hordespawngenblock"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "scarytrack1",
+      "files": [
+        "scarymusic2018-10-12_-_it_is_coming_-_david_fesliyan"
+      ],
+      "category": "music",
+      "subtitle": "it is comming!"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.horrified.hordespawngenblock": "Hordespawngenblock",
+      "subtitles.scarytrack1": "it is comming!"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "horrified",
+    "modName": "horrified",
+    "version": "1.0.0",
+    "author": "miles, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.horrified",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}
